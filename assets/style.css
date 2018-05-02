@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+h1 {
+    color: white;
+    background-color: blueviolet;
+    color:goldenrod;
+    text-align: center;
+}
+h2{
+    color: white;
+    font-size: 29px;
+}
+#studentImg,
+#basicInfo,
+#contactInfo{
+    float: left;
+}
+
+.generalInfo{
+    width: 100%;
+    margin: 0 auto;
+}
+#studentImg{
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(230, 180, 0);
+}
+#basicInfo{
+    color: white;
+    width: 70%;
+}
+#contactInfo{
+    color: white;
+    width: 30%;
+}
